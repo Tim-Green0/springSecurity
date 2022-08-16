@@ -11,6 +11,7 @@ spring:
   config:
     import:
       - optional:file:C:/dev/dbconfig.properties
+      - optional:file:${user.home}/env/config.properties
     
   mvc:
     view:
